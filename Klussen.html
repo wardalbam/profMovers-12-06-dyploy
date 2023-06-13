@@ -22,23 +22,12 @@
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    
+
 </head>
 
 <body>
-    <style>
-        /* Style for the icon container */
-        .single-fun-facts .icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background-color: #f5f5f5;
-            margin-bottom: 20px;
-        }
-    </style>
-
     <!-- header style two -->
     <header class="rts-header-area header-one">
         <div class="container">
@@ -77,7 +66,7 @@
                                     <!-- single info wrapper end -->
                                     <!-- button area start -->
                                     <div class="btn-area-header">
-                                        <a href="quote.html" class="rts-btn btn-primary with-arrow">Offerte aanvragen
+                                        <a href="/quote.html" class="rts-btn btn-primary with-arrow">Offerte aanvragen
                                             <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <!-- button area end -->
@@ -97,24 +86,24 @@
                                         <nav>
                                             <ul class="navigation-links">
                                                 <li>
-                                                    <a class="nav-link active" href="index.html">HOME</a>
+                                                    <a class="nav-link " href="index.html">HOME</a>
                                                 </li>
-                                                <li><a class="nav-link" href="aboutus.html">OVER ONS</a></li>
+
                                                 <li class="has-dropdown">
                                                     <a class="nav-link" href="/service.html">ONZE DIENSTEN</a>
                                                     <ul class="submenu">
                                                         <li><a href="/Verhuizen.html">Verhuizingen</a></li>
                                                         <li><a href="/Transport.html">Transport</a></li>
-                                                        <li><a href="/Inpakken.html">Inpakken</a></li>
+                                                        <li><a  href="/Inpakken.html">Inpakken</a></li>
                                                         <li><a href="/Ontruimen.html">Ontruimen</a></li>
-                                                        <li><a href="/Klussen.html">Klussen</a></li>
+                                                        <li><a class="active" href="/Klussen.html">Klussen</a></li>
                                                         <li><a href="/Sjouwwerk.html">Sjouwwerk</a></li>
                                                         <li><a href="/Verhuislift.html">Verhuislift</a></li>
                                                     </ul>
                                                 </li>
+                                                <li><a class="nav-link" href="aboutus.html">OVER ONS</a></li>
                                                 <li><a class="nav-link" href="contact.html">CONTACT</a></li>
-
-                                                <li><a class="nav-link" href="quote.html">OFFERTE</a></li>
+                                                <li><a class="nav-link" href="/quote.html">OFFERTE AANVRAGEN</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -179,14 +168,14 @@
                     <li class="has-droupdown third-lvl">
                         <a class="main" href="#">ONZE DIENSTEN</a>
                         <ul class="submenu-third-lvl mm-collapse">
-                            <li><a href="project-details.html"></a>Transport</li>
-                            <li><a href="project-details-gallery.html"></a>Ontruimen</li>
-                            <li><a href="project-details-vedio.html"></a>Klussen</li>
-                            <li><a href="project-details-carousel.html"></a>Sjouwwerk</li>
-                            <li><a href="project-details-carousel.html"></a>Verhuislift</li>
-                            <li><a href="project-details-carousel.html"></a>Sjouwwerk</li>
-                            <li><a href="project-details-carousel.html"></a>Inpakken</li>
-                            <li><a href="project-details-carousel.html"></a>Verhuizingen</li>
+                            <li><a href="/Verhuizen.html"></a>Verhuizingen</li>
+                            <li><a href="/Transport.html"></a>Transport</li>
+                            <li><a href="/Ontruimen.html"></a>Ontruimen</li>
+                            <li><a href="/Inpakken.html"></a>Inpakken</li>
+                            <li><a href="/Klussen.html"></a>Klussen</li>
+                            <li><a href="/Sjouwwerk.html"></a>Sjouwwerk</li>
+                            <li><a href="/Verhuislift.html"></a>Verhuislift</li>
+
                         </ul>
                     </li>
                 </ul>
@@ -199,6 +188,11 @@
     <!-- header style two End -->
     <!-- header style two End -->
 
+    <style>
+        .bg-breadcrumb {
+            background-image: url(assets/imageS/project/05.jpg) !important;
+        }
+    </style>
     <!-- header style two -->
     <!-- rts breadcrumb area -->
     <div class="rts-bread-crumb-area ptb--65 bg_image bg-breadcrumb">
@@ -210,10 +204,11 @@
                             <div class="slug">
                                 <a href="#index.html">HOME / </a>
                                 <a href="service.html"> Diensten /</a>
-                                <a class="active" href="#index.html">Inpakken</a>
+                                <a class="active" href="#index.html">Klussen</a>
                             </div>
                             <div class="title">
-                                <a href="#">Professioneel inpakken</a>
+                                <a> Klussen </a>
+                                <!-- icon -->
                             </div>
                         </div>
                     </div>
@@ -226,198 +221,210 @@
 
 
     <!-- rts service details area start -->
-
-
-
-
-    <div class="rts-service-details-area rts-section-gap">
-        <div class="container">
-            <div class="row g-40">
-                <div class="col-lg-8">
-                    <div class="left-service-details-wrapper">
-                        <div class="thumbnail-large">
-                            <img src="assets/images/service/09.jpg" alt="service-details">
-                        </div>
-                        <div class="content--sd-top">
-                            <h3 class="title animated fadeIn">Profmovers - Klussen</h3>
-                            <p class="disc-1">
-                                Bij Profmovers bieden wij professionele klusdiensten aan om ervoor te zorgen dat uw
-                                huisverbeteringsprojecten soepel verlopen. Ons deskundige team van klussers staat klaar
-                                om verschillende taken aan te pakken, zoals schilderen, timmerwerk, montage van meubels
-                                en nog veel meer. Wij streven ernaar om uw visie werkelijkheid te laten worden en
-                                hoogwaardige resultaten te leveren.
-                            </p>
-                            <p class="disc-2">
-                                Wij begrijpen dat klussen in huis vaak tijdrovend en uitdagend kunnen zijn. Laat ons het
-                                zware werk voor u doen, zodat u kunt genieten van een stressvrije ervaring. Onze
-                                klussers zijn ervaren, betrouwbaar en zorgen voor vakmanschap bij elke klus. Of het nu
-                                gaat om kleine reparaties of grote renovaties, wij staan voor u klaar om uw huis te
-                                transformeren.
-                            </p>
-                        </div>
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6">
-                                <div class="sm-thumbnail-sd">
-                                    <img src="assets/images/service/10.jpg" alt="service">
-                                </div>
-                            </div>
-                            <div
-                                class="sm-sd-content-wrapper col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
-                                <h4 class="title">Voordelen voor klanten</h4>
-                                <p class="disc">Wanneer u gebruikmaakt van onze klusdiensten, profiteert u van de
-                                    volgende voordelen:</p>
-                                <div class="single-banifits">
-                                    <i class="far fa-check-circle"></i>
-                                    <span>Professionele en deskundige klussers</span>
-                                </div>
-                                <div class="single-banifits">
-                                    <i class="far fa-check-circle"></i>
-                                    <span>Kwalitatief hoogwaardig vakmanschap</span>
-                                </div>
-                                <div class="single-banifits">
-                                    <i class="far fa-check-circle"></i>
-                                    <span>Efficiënte en tijdige voltooiing van de klussen</span>
-                                </div>
-                            </div>
-                        </div>
+<div class="rts-service-details-area rts-section-gap">
+    <div class="container">
+        <div class="row g-40">
+            <div class="col-lg-8">
+                <div class="left-service-details-wrapper">
+                    <div class="thumbnail-large">
+                        <img src="assets/imageS/project/05.jpg" alt="service-details">
                     </div>
-                    <div class="service-detials-step-2 mt--50">
-                        <h4 class="title">3 eenvoudige stappen om te volgen</h4>
-                        <p class="disc mb--25">
-                            Hieronder vindt u de 3 eenvoudige stappen die u kunt volgen om gebruik te maken van onze
-                            klusdiensten:
+                    <div class="content--sd-top">
+                        <h3 class="title animated fadeIn">Profmovers - Klussen</h3>
+                        <p class="disc-1">
+                            Bij Profmovers bieden wij professionele klusdiensten aan om al je klussen moeiteloos te klaren. Ons ervaren team van vakmensen staat klaar om diverse klusprojecten aan te pakken, groot of klein.
                         </p>
-                        <p class="disc">
-                            Stap
-
-                            1: Neem contact met ons op en geef aan welke klussen u wilt laten uitvoeren. We plannen dan
-                            een geschikte tijd in om de klussen aan te pakken.
+                        <p class="disc-2">
+                            Of je nu een meubelstuk moet monteren, schilderwerk nodig hebt of andere klussen in huis hebt, wij bieden maatwerkoplossingen die aan je specifieke behoeften voldoen. Laat ons je helpen om je klussen efficiënt en professioneel uit te voeren.
                         </p>
-                        <p class="disc">
-                            Stap 2: Ons team van ervaren klussers komt op de afgesproken tijd bij u langs en begint met
-                            de kluswerkzaamheden. Ze zorgen voor hoogwaardige resultaten en streven naar uw
-                            tevredenheid.
-                        </p>
-                        <p class="disc">
-                            Stap 3: Zodra de klussen zijn voltooid, ruimen wij het werkgebied op en laten we uw huis
-                            netjes achter. U kunt genieten van het resultaat van onze professionele klusdiensten.
-                        </p>
+                    </div>
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="sm-thumbnail-sd">
+                                <img src="assets/images/project/02.jpg" alt="service">
+                            </div>
+                        </div>
+                        <div class="sm-sd-content-wrapper col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
+                            <h4 class="title">Voordelen van onze klusdiensten</h4>
+                            <p class="disc">Wanneer je gebruikmaakt van onze klusdiensten, geniet je van de volgende voordelen:</p>
+                            <div class="single-banifits">
+                                <i class="far fa-check-circle"></i>
+                                <span>Professionele en ervaren vakmensen die je klussen deskundig uitvoeren</span>
+                            </div>
+                            <div class="single-banifits">
+                                <i class="far fa-check-circle"></i>
+                                <span>Maatwerkoplossingen afgestemd op jouw specifieke klusbehoeften</span>
+                            </div>
+                            <div class="single-banifits">
+                                <i class="far fa-check-circle"></i>
+                                <span>Efficiënte en betrouwbare service, ongeacht de omvang van de klus</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-12 col-sm-12 col-12">
-                    <!-- single wizered start -->
-
-                    <!-- single wizered End -->
-                    <!-- single wizered start -->
-                    <div class="rts-single-wized Categories">
-                        <div class="wized-header">
-                            <h5 class="title text-start mt--0">
-                                Onze Diensten
-                            </h5>
-                        </div>
-                        <div class="wized-body">
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Transport <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Ontruimen <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Klussen <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Sjouwwerk <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Inpakken/uitpakken <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Verhuislift <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories ">
-                                <li><a href="#" class="selected_dienst">Inpakken <i
-                                            class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories">
-                                <li><a href="#">Verhuizingen <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                        </div>
+                <div class="service-detials-step-2 mt--50">
+                    <h4 class="title">3 eenvoudige stappen om te volgen</h4>
+                    <div class="step">
+                      <div class="step-icon">
+                        <i class="fas fa-phone"></i>
+                      </div>
+                      <p class="step-text">Stap 1: Neem contact met ons op en bespreek je klusproject. We plannen vervolgens een geschikte tijd in voor de uitvoering van de klus.</p>
                     </div>
-                    <!-- single wizered End -->
-                    <!-- single wizered start -->
-                    <div class="rts-single-wized">
-                        <div class="card-cta">
-                            <div class="thumbnail">
-                                <img src="assets/images/service
-
-/20230612210240_[fpdl.in]_two-removal-company-workers-unloading-boxes-from-minibus-into-new-home_179755-15489_large.jpg"
-                                    alt="cta">
-                            </div>
-                            <h5 class="title">(+31) 85 060 9998</h5>
-                            <p class="opc mt--20">Maandag t/m zondag: 09:00-21:00</p>
-                            <p class="opc mb--20">We staan klaar om te helpen</p>
-                            <a href="mailto:info@profmovers.nl" class="rts-btn btn-primary">Mail ons</a>
-                        </div>
+                    <div class="step">
+                      <div class="step-icon">
+                        <i class="fas fa-users"></i>
+                      </div>
+                      <p class="step-text">Stap 2: Ons team van professionele vakmensen arriveert op de afgesproken tijd en voert de klus met zorg en precisie uit.</p>
                     </div>
-                    <!-- single wizered End -->
-
-                    <!-- single wizered start -->
-                    <div class="rts-single-wized">
-                        <div class="wized-header">
-                            <h5 class="title text-start mt--0">
-                                Neem contact op
-                            </h5>
-
-
-                        </div>
-                        <div class="get-in-touch-single-side">
-                            <!-- single get in touch start-->
-                            <div class="rts-single--cta">
-                                <i class="fa-sharp fa-light fa-envelope"></i>
-                                <a href="#">info@profmovers.com</a>
-                            </div>
-                            <!-- single get in touch end -->
-                            <!-- single get in touch start-->
-                            <div class="rts-single--cta">
-                                <i class="fa-regular fa-phone"></i>
-                                <a href="#">(+31) 85 060 9998</a>
-                            </div>
-
-                            <!-- single get in touch start-->
-                            <div class="rts-single--cta">
-                                <i class="fa-sharp fa-solid fa-timer"></i>
-                                <a href="#">Ma - Zo 9.00 - 21.00.</a>
-                            </div>
-                            <!-- single get in touch end -->
-                        </div>
+                    <div class="step">
+                      <div class="step-icon">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <p class="step-text">Stap 3: Na voltooiing van de klus, zorgen we ervoor dat alles netjes wordt achtergelaten. Je kunt vertrouwen op onze betrouwbare klusdiensten.</p>
                     </div>
-                    <!-- single wizered End -->
+                  </div>
+                  <style>
+                    .service-detials-step-2 {
+                        margin-top: 50px;
+                      }
+                      
+                      .title {
+                        font-size: 24px;
+                        font-weight: bold;
+                      }
+                      
+                      .step {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .step-icon {
+                        background-color: #f8f8f8;
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 20px;
+                      }
+                      
+                      .step-icon i {
+                        color: #333;
+                        font-size: 20px;
+                      }
+                      
+                      .step-text {
+                        font-size: 16px;
+                        color: #555;
+                      }
+                      
+                  </style>
+            </div>
+            <div class="col-xl-4 col-md-12 col-sm-12 col-12">
+                <!-- single wizered start -->
 
+                <!-- single wizered End -->
+                <!-- single wizered start -->
+                <div class="rts-single-wized Categories">
+                    <div class="wized-header">
+                        <h5 class="title text-start mt--0">
+                            Onze Diensten
+                        </h5>
+                    </div>
+                    <div class="wized-body">
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a href="/Transport.html">Transport <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a  href="/Ontruimen.html">Ontruimen <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a class="selected_dienst" href="/Klussen.html">Klussen <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a href="/Sjouwwerk.html">Sjouwwerk <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a href="/Inpakken.html">Inpakken/uitpakken <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a href="/Verhuislift.html">Verhuislift <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                        <!-- single categoris -->
+                        <ul class="single-categories">
+                            <li><a href="/Verhuizen.html">Verhuizingen <i class="far fa-long-arrow-right"></i></a></li>
+                        </ul>
+                        <!-- single categoris End -->
+                    </div>
                 </div>
+                <!-- single wizered End -->
+                <!-- single wizered start -->
+                <div class="rts-single-wized">
+                    <div class="card-cta">
+                        <div class="thumbnail">
+                            <img src="assets/images/service/clean-new-house-full-boxes.jpg" alt="cta">
+                        </div>
+                        <h5 class="title">Je Meubelvolume Berekenen?</h5>
+                        <p class="opc mt--20">Ontdek onze handige meubelvolume calculator! </p>
+                        <p class="opc mb--20">Bereken moeiteloos het volume van je meubels voordat je gaat verhuizen
+                            of herinrichten.</p>
+                        <a href="/quote.html" class="rts-btn btn-primary">BEREKEN MEUBELVOLUME</a>
+                    </div>
+                </div>
+                <!-- single wizered End -->
+
+                <!-- single wizered start -->
+                <div class="rts-single-wized">
+                    <div class="wized-header">
+                        <h5 class="title text-start mt--0">
+                            Neem contact op
+                        </h5>
+
+
+                    </div>
+                    <div class="get-in-touch-single-side">
+                        <!-- single get in touch start-->
+                        <div class="rts-single--cta">
+                            <i class="fa-sharp fa-light fa-envelope"></i>
+                            <a href="#">info@profmovers.com</a>
+                        </div>
+                        <!-- single get in touch end -->
+                        <!-- single get in touch start-->
+                        <div class="rts-single--cta">
+                            <i class="fa-regular fa-phone"></i>
+                            <a href="#">(+31) 85 060 9998</a>
+                        </div>
+
+                        <!-- single get in touch start-->
+                        <div class="rts-single--cta">
+                            <i class="fa-sharp fa-solid fa-timer"></i>
+                            <a href="#">Ma - Zo 9.00 - 21.00.</a>
+                        </div>
+                        <!-- single get in touch end -->
+                    </div>
+                </div>
+                <!-- single wizered End -->
+
             </div>
         </div>
     </div>
+</div>
 
-
-
-
-    <!-- rts service details area end -->
+<!-- rts service details area end -->
 
 
 
@@ -454,28 +461,24 @@
                     <li><a class="mobile-menu-link" href="index.html"> HOME</a></li>
                     <li><a class="mobile-menu-link" href="aboutus.html"> OVER ONS</a></li>
                     <li><a class="mobile-menu-link" href="contact.html"> CONTACT</a></li>
-
                     <!-- offerte button -->
-                    <li><a class="mobile-menu-link" href="contact.html"> Offerte
+                    <li><a class="mobile-menu-link" href="/quote.html"> Offerte
                         </a></li>
                     <li class="has-droupdown third-lvl">
-                        <a class="main" href="/service.html">ONZE DIENSTEN</a>
-                        
+                        <a class="main" href="#">ONZE DIENSTEN</a>
                         <ul class="submenu-third-lvl mm-collapse">
-                            <li><a href="/Transport.html">Transport</a></li>
-                            <li><a href="/Ontruimen.html">Ontruimen</a></li>
-                            <li><a href="/Klussen.html">Klussen</a></li>
-                            <li><a href="/Sjouwwerk.html">Sjouwwerk</a></li>
-                            <li><a href="/Verhuislift.html">Verhuislift</a></li>
-                            <li><a href="/Sjouwwerk.html">Sjouwwerk</a></li>
-                            <li><a href="/Inpakken.html">Inpakken</a></li>
-                            <li><a href="/Verhuizingen.html">Verhuizingen</a></li>
+                            <li><a href="/Verhuizen.html"></a>Verhuizingen</li>
+                            <li><a href="/Transport.html"></a>Transport</li>
+                            <li><a href="/Ontruimen.html"></a>Ontruimen</li>
+                            <li><a href="/Inpakken.html"></a>Inpakken</li>
+                            <li><a href="/Klussen.html"></a>Klussen</li>
+                            <li><a href="/Sjouwwerk.html"></a>Sjouwwerk</li>
+                            <li><a href="/Verhuislift.html"></a>Verhuislift</li>
+
                         </ul>
                     </li>
                 </ul>
             </nav>
-
-
         </div>
         <!-- mobile menu area end -->
     </div>
@@ -517,23 +520,9 @@
                                     </div>
                                     <div class="contact-info">
                                         <p>
-                                            <E-mail>Mail ons </E-mail>
+                                            <E-mail> Mail ons </E-mail>
                                         </p>
                                         <a href="mailto:info@profmovers.nl">info@profmovers.nl</a>
-                                    </div>
-                                </div>
-                                <!-- single contact area end -->
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                <!-- single contact area start -->
-                                <div class="single-cta-area last">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-map-marker"></i>
-                                    </div>
-                                    <div class="contact-info">
-                                        <p>Onze Adres</p>
-                                        <a href="https://maps.google.com/maps?q=Damsterdiep+117,+2904+EL+Capelle+aan+den+IJssel"
-                                            target="_blank">Damsterdiep 117, 2904 EL Capelle aan den IJsse</a>
                                     </div>
                                 </div>
                                 <!-- single contact area end -->
@@ -580,32 +569,32 @@
                                 <div class="pages-footer">
                                     <ul>
                                         <li>
-                                            <a href="./index.html">
+                                            <a href="/index.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Home</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="./aboutus.html">
+                                            <a href="/aboutus.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Over ons</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="./quote.html">
+                                            <a href="/quote.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Offerte aanvragen</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="./service.html">
+                                            <a href="/service.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Onze Diensten</p>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="./contact.html">
+                                            <a href="/contact.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Contact</p>
                                             </a>

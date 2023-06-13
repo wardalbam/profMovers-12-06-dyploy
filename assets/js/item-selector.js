@@ -1010,12 +1010,10 @@ const items = {
       };
     });
 
-  
+ 
   function preFillForm(event) {
     console.log(event.target.id);
-    // Prevent the default form submission
     event.preventDefault();
-
     var requestData = selectedItems.map(function(item) {
       return {
         itemName: item.item.name,
@@ -1023,39 +1021,27 @@ const items = {
       };
     });
 
-    const input = document.createElement('input');
-    input.type = 'hidden';
-    input.name = 'geselecteerd items';
-    // add all items in one input 
+    const totalVolume = document.getElementById("totalVolume");
+    totalVolume.value = getTotalVolume();
+
+    const itemsList_2 = document.getElementById("ItemsList");
     for (let i = 0; i < requestData.length; i++) {
-      input.value += requestData[i].itemName + " " + requestData[i].quantity + " ||";
+      itemsList_2.value += " " + requestData[i].quantity + " X " + requestData[i].itemName + " | ";
     }
-    document.getElementById('quote-form').appendChild(input);
 
-    // add hidden input => total volume 
-    const volumeInput = document.createElement('input');
-    volumeInput.type = 'hidden';
-    volumeInput.name = 'total volume';
-    volumeInput.value = getTotalVolume();
-    
-    document.getElementById('quote-form').appendChild(volumeInput);
-
-    // Encode the object data as a JSON string
-    // var requestDataString = JSON.stringify(requestData);
-
-    
-    // // Set the value of the input field
-    // document.getElementById('GeselecteerdItems').value = requestDataString;
-
-    // Submit the form
     event.target.submit();
   }
   // quote test
   
-function getTotalVolume(){
-  var totalVolume = 0;
-  for (let i = 0; i < selectedItems.length; i++) {
-    totalVolume += selectedItems[i].quantity * selectedItems[i].item.volume;
+  function getTotalVolume() {
+    var totalVolume = 0;
+    for (let i = 0; i < selectedItems.length; i++) {
+      totalVolume += selectedItems[i].quantity * selectedItems[i].item.volume;
     }
-
-}
+  
+    // Convert totalVolume to a string
+    var totalVolumeString = totalVolume.toString();
+  
+    // Return the totalVolume as a string
+    return totalVolumeString;
+  }

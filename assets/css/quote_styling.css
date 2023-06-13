@@ -134,7 +134,7 @@ body {
   }
   .form-wizard .form-group {
     position: relative;
-    margin: 25px 0;
+    /* margin: 25px 0; */
   }
   .form-wizard .wizard-form-text-label {
     position: absolute ;
@@ -785,7 +785,7 @@ body {
   }
   .form-wizard .form-group {
     position: relative;
-    margin: 25px 0;
+    /* margin: 25px 0; */
   }
   .form-wizard .wizard-form-text-label {
     position: absolute;
@@ -1033,7 +1033,7 @@ input[type="text"] {
 .one-line-fields{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .step_name{
   position: absolute; left: 50%;

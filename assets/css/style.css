@@ -15348,6 +15348,8 @@ nav ul li a {
 
 .bg-breadcrumb {
   background-image: url(../images/profmovers-truck.jpeg);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .banner-one-swiper--wrapper-area .banner-main-wrapper-one .pre-title {
@@ -15612,12 +15614,14 @@ nav ul li a {
   left: 0;
   top: 0;
   content: "";
-  background-image: url(../images/cta/01.png);
+  /* background-image: url(../images/cta/01.png); */
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   z-index: -1;
   background-size: contain;
+  background-color: #eeeeee33;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .cta-main-wrapper-one .icon {
   margin-right: 20px;
@@ -15626,10 +15630,11 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #17161B;
+  /* background: #17161B; */
   position: relative;
   z-index: 1;
   border-radius: 50%;
+  background-color: #eeeeee33 !important;
 }
 @media only screen and (max-width: 479px) {
   .cta-main-wrapper-one .icon {
@@ -17026,16 +17031,19 @@ p {
 }
 
 .rts-single-working-process {
-  background-image: url(../images/working-process/01.png);
+  /* background-image: url(../images/working-process/01.png); */
   position: relative;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 386px;
+  /* height: 386px; */
   padding: 50px 40px;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #cccccc22;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid var(--color-primary);
 }
 @media only screen and (max-width: 1199px) {
   .rts-single-working-process {
@@ -19491,7 +19499,9 @@ form.appoinment-form .input-half-wrapper .single-input input {
   font-weight: 700;
   font-size: 60px;
   line-height: 80px;
-  color: #fff;
+  color: #eee;
+  /* shadow */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: var(--font-primary);
 }
 @media only screen and (max-width: 767px) {
@@ -19864,6 +19874,8 @@ form.appoinment-form .input-half-wrapper .single-input input {
             padding: 1rem;
             margin: 1rem;
             border-radius: 5px;
+            background-color: #cccccc33;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         }
 
         .rts-choose-single .choose-icon {

@@ -25,20 +25,6 @@
 </head>
 
 <body>
-    <style>
-        /* Style for the icon container */
-        .single-fun-facts .icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background-color: #f5f5f5;
-            margin-bottom: 20px;
-        }
-    </style>
-
     <!-- header style two -->
     <header class="rts-header-area header-one">
         <div class="container">
@@ -77,7 +63,7 @@
                                     <!-- single info wrapper end -->
                                     <!-- button area start -->
                                     <div class="btn-area-header">
-                                        <a href="quote.html" class="rts-btn btn-primary with-arrow">Offerte aanvragen
+                                        <a href="/quote.html" class="rts-btn btn-primary with-arrow">Offerte aanvragen
                                              <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <!-- button area end -->
@@ -97,24 +83,24 @@
                                         <nav>
                                             <ul class="navigation-links">
                                                 <li>
-                                                    <a class="nav-link active" href="index.html">HOME</a>
+                                                    <a class="nav-link " href="index.html">HOME</a>
                                                 </li>
-                                                <li><a class="nav-link" href="aboutus.html">OVER  ONS</a></li>
+                                                
                                                 <li class="has-dropdown">
                                                     <a class="nav-link" href="/service.html">ONZE DIENSTEN</a>
                                                     <ul class="submenu">
                                                         <li><a href="/Verhuizen.html">Verhuizingen</a></li>
                                                         <li><a href="/Transport.html">Transport</a></li>
-                                                        <li><a href="/Inpakken.html">Inpakken</a></li>
+                                                        <li><a class="active" href="/Inpakken.html">Inpakken</a></li>
                                                         <li><a href="/Ontruimen.html">Ontruimen</a></li>
                                                         <li><a href="/Klussen.html">Klussen</a></li>
                                                         <li><a href="/Sjouwwerk.html">Sjouwwerk</a></li>
                                                         <li><a href="/Verhuislift.html">Verhuislift</a></li>
                                                     </ul>
                                                 </li>
+                                                <li><a class="nav-link" href="aboutus.html">OVER  ONS</a></li>
                                                 <li><a class="nav-link" href="contact.html">CONTACT</a></li>
-
-                                                <li><a class="nav-link" href="quote.html">OFFERTE</a></li>
+                                                <li><a class="nav-link" href="/quote.html">OFFERTE AANVRAGEN</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -298,42 +284,37 @@ sten. We plannen dan een geschikte tijd in voor het inpakken van uw items.
                         <div class="wized-body">
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Transport <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="/Transport.html">Transport <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Ontruimen <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="/Ontruimen.html">Ontruimen <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Klussen <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="/Klussen.html">Klussen <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Sjouwwerk <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="/Sjouwwerk.html">Sjouwwerk <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Inpakken/uitpakken <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a class="selected_dienst" href="/Inpakken.html">Inpakken/uitpakken <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Verhuislift <i class="far fa-long-arrow-right"></i></a></li>
-                            </ul>
-                            <!-- single categoris End -->
-                            <!-- single categoris -->
-                            <ul class="single-categories " >
-                                <li  ><a  href="#" class="selected_dienst">Inpakken <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="/Verhuislift.html">Verhuislift <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                             <!-- single categoris -->
                             <ul class="single-categories">
-                                <li><a href="#">Verhuizingen <i class="far fa-long-arrow-right"></i></a></li>
+                                <li><a href="/Verhuizen.html">Verhuizingen <i class="far fa-long-arrow-right"></i></a></li>
                             </ul>
                             <!-- single categoris End -->
                         </div>
@@ -343,12 +324,12 @@ sten. We plannen dan een geschikte tijd in voor het inpakken van uw items.
                     <div class="rts-single-wized">
                         <div class="card-cta">
                             <div class="thumbnail">
-                                <img src="assets/images/man-box-logo.jpeg" alt="cta">
+                                <img src="assets/images/service/clean-new-house-full-boxes.jpg" alt="cta">
                             </div>
-                            <h5 class="title">(+31) 85 060 9998</h5>
-                            <p class="opc mt--20">Maandag t/m zondag: 09:00-21:00</p>
-                            <p class="opc mb--20">We staan klaar om te helpen</p>
-                            <a href="mailto:info@profmovers.nl" class="rts-btn btn-primary">Mail ons</a>
+                            <h5 class="title">Je Meubelvolume Berekenen?</h5>
+                            <p class="opc mt--20">Ontdek onze handige meubelvolume calculator! </p>
+                            <p class="opc mb--20">Bereken moeiteloos het volume van je meubels voordat je gaat verhuizen of herinrichten.</p>
+                            <a href="/quote.html" class="rts-btn btn-primary">BEREKEN MEUBELVOLUME</a>
                         </div>
                     </div>
                     <!-- single wizered End -->
@@ -390,225 +371,6 @@ sten. We plannen dan een geschikte tijd in voor het inpakken van uw items.
         </div>
     </div>
     <!-- rts service details area end -->
-
-
-    <!-- rts awesome feed back area -->
-    <!-- <div class="rts-awesome-funfacts-area bg-awesome-feedback">
-            <div class="container-75">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="left-awesome-feedback-wrapper">
-                            <div class="single-awesome-feedback-area large">
-                                <div class="wrapper">
-                                    <h2>1.5m+</h2>
-                                    <h5 class="title">Happy Customers</h5>
-                                    <p>Vivamus quisque lobortis placerat imperdiet class eros neque duisator mollis
-                                        porttitor</p>
-                                </div>
-                            </div>
-                            <div class="single-awesome-feedback-area small">
-                                <div class="wrapper">
-                                    <h2>200+</h2>
-                                    <h5 class="title">Handyman Solution</h5>
-                                    <p>Viamus quique lobortis plarat imperdiet class eros</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row align-items-center">
-                            <div class="col-lg-12 col-xl-6 padding-feedback-top-btm">
-                                <div class="title-area-left">
-                                    <p class="pre">
-                                        <span>Our Customers</span> Testimonial
-                                    </p>
-                                    <h3 class="title">
-                                        Highest Rated Company
-                                    </h3>
-                                </div>
-                                <div class="awes-me-fun-f-content">
-                                    <p class="disc">
-                                        Dui maecenas tempus laoreet nec nullam fringilla luctusoi eros quam pellentesque
-                                        cras dictum fermentum, conubia eu egestas velit netus dictumst.
-                                    </p>
-                                    <div class="score-rate">
-                                        <span class="score">4.9/5</span>
-                                        <div class="info-wrapper">
-                                            <p>Trust Score Rated</p>
-                                            <span>Rated by over 5000 customers</span>
-                                        </div>
-                                    </div>
-                                    <a class="btn-under-p" href="#">View All Review</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6 pl--control-feedback">
-                                <div class="thumbnail">
-                                    <img src="assets/images/solution/04.png" alt="solution">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- rts awesome feed back area end -->
-
-    <!-- rts projects area start -->
-    <!-- <div class="rts-projects-area home-1 rts-section-gap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title--between-wrapper">
-                            <div class="title-area-left">
-                                <p class="pre">
-                                    <span>Feel Free</span> To COntact Us
-                                </p>
-                                <h2 class="title">
-                                    Stunning Our Latest <br>
-                                    <span>Projects</span>
-                                </h2>
-                            </div>
-                            <div class="button-area">
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-full mt--30">
-                <div class="project-swiper-wrapper">
-                    <div class="swiper project-home-one">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/01.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Official Cleaning Service</h5>
-                                        </a>
-
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/02.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Home Cleaning Service</h5>
-                                        </a>
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/03.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Macanic Fan Service</h5>
-                                        </a>
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/04.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Professional clean Service</h5>
-                                        </a>
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/05.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Light repare Service</h5>
-                                        </a>
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/02.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Official Cleaning Service</h5>
-                                        </a>
-
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="project-one-wrapper">
-                                    <div class="shape"><img src="assets/images/project/shape/01.png" alt="shape"></div>
-                                    <a href="project-details.html" class="thumbnail">
-                                        <img src="assets/images/project/03.jpg" alt="project">
-                                    </a>
-                                    <div class="content">
-                                        <span class="pre">Cleaning</span>
-                                        <a href="project-details.html">
-                                            <h5 class="title">Gas Stove repare Service</h5>
-                                        </a>
-
-                                        <a href="project-details.html"><img src="assets/images/project/shape/02.png"
-                                                alt="shape"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- rts projects area end -->
 
 
 
@@ -701,23 +463,9 @@ sten. We plannen dan een geschikte tijd in voor het inpakken van uw items.
                                     </div>
                                     <div class="contact-info">
                                         <p>
-                                            <E-mail>Mail ons </E-mail>
+                                            <E-mail> Mail ons </E-mail>
                                         </p>
                                         <a href="mailto:info@profmovers.nl">info@profmovers.nl</a>
-                                    </div>
-                                </div>
-                                <!-- single contact area end -->
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                <!-- single contact area start -->
-                                <div class="single-cta-area last">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-map-marker"></i>
-                                    </div>
-                                    <div class="contact-info">
-                                        <p>Onze Adres</p>
-                                        <a href="https://maps.google.com/maps?q=Damsterdiep+117,+2904+EL+Capelle+aan+den+IJssel"
-                                            target="_blank">Damsterdiep 117, 2904 EL Capelle aan den IJsse</a>
                                     </div>
                                 </div>
                                 <!-- single contact area end -->
@@ -764,32 +512,32 @@ sten. We plannen dan een geschikte tijd in voor het inpakken van uw items.
                                 <div class="pages-footer">
                                     <ul>
                                         <li>
-                                            <a href="./index.html">
+                                            <a href="/index.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Home</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="./aboutus.html">
+                                            <a href="/aboutus.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Over ons</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="./quote.html">
+                                            <a href="/quote.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Offerte aanvragen</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="./service.html">
+                                            <a href="/service.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Onze Diensten</p>
                                             </a>
                                         </li>
 
                                         <li>
-                                            <a href="./contact.html">
+                                            <a href="/contact.html">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                                 <p>Contact</p>
                                             </a>
@@ -1001,32 +749,3 @@ sten. We plannen dan een geschikte tijd in voor het inpakken van uw items.
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
