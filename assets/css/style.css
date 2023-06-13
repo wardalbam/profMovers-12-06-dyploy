@@ -40,6 +40,9 @@
 
 ==================================================*/
 /* Default  */
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
@@ -104,8 +107,57 @@
   color: var(--color-primary);
 }
 
+/* eigen css */
+
+.logo-area img{
+  max-width: 200px !important;
+}
 
 
+.active{
+  color: var(--color-primary);
+}
+.navigation-links li {
+  margin: 10px;
+}
+
+.rts-choose-single{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: #cccccc33;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.rts-choose-single .choose-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    align-self: center;
+    
+}
+
+.rts-choose-single .choose-icon i {
+    font-size: 30px;
+    color: var(--color-primary);
+}
+
+.rts-choose-single .choose-content h3.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.rts-choose-single .choose-content p.desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+}
 
 
 
@@ -9915,7 +9967,7 @@ Background Image
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  /* background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important; */
+  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important;
 }
 
 .bg_image--1 {
@@ -15531,7 +15583,6 @@ nav ul li a {
   left: 0;
   top: 0;
   content: "";
-  /* background-image: url(../images/cta/01.png); */
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
