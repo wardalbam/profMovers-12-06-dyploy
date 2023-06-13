@@ -9918,11 +9918,11 @@ Background Image
 }
 
 .bg_image--1 {
-  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg);
+  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important;
 }
 
 .bg_image--2 {
-  /* background-image: url(/assets/images/man-box-logo.jpeg); */
+  background-image: url(/assets/images/man-box-logo.jpeg) !important;
 }
 
 .bg_image--3 {
@@ -10078,7 +10078,7 @@ Background Image
 }
 
 .bg_tr-image--1 {
-  background-image: url(../images/bg/bg-image-1.png) !important;
+  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important;
   background-size: cover !important;
 }
 
@@ -10089,91 +10089,6 @@ Background Image
 
 .bg_tr-image--3 {
   background-image: url(../images/bg/bg-image-3.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--4 {
-  background-image: url(../images/bg/bg-image-4.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--5 {
-  background-image: url(../images/bg/bg-image-5.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--6 {
-  background-image: url(../images/bg/bg-image-6.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--7 {
-  background-image: url(../images/bg/bg-image-7.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--8 {
-  background-image: url(../images/bg/bg-image-8.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--9 {
-  background-image: url(../images/bg/bg-image-9.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--10 {
-  background-image: url(../images/bg/bg-image-10.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--11 {
-  background-image: url(../images/bg/bg-image-11.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--12 {
-  background-image: url(../images/bg/bg-image-12.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--13 {
-  background-image: url(../images/bg/bg-image-13.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--14 {
-  background-image: url(../images/bg/bg-image-14.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--15 {
-  background-image: url(../images/bg/bg-image-15.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--16 {
-  background-image: url(../images/bg/bg-image-16.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--17 {
-  background-image: url(../images/bg/bg-image-17.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--18 {
-  background-image: url(../images/bg/bg-image-18.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--19 {
-  background-image: url(../images/bg/bg-image-19.png) !important;
-  background-size: cover !important;
-}
-
-.bg_tr-image--20 {
-  background-image: url(../images/bg/bg-image-20.png) !important;
   background-size: cover !important;
 }
 
@@ -17040,9 +16955,9 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #cccccc22 !important;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
-  border: 1px solid var(--color-primary) !important;
+  background-color: #cccccc22 ;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px ;
+  border: 1px solid var(--color-primary) ;
 }
 @media only screen and (max-width: 1199px) {
   .rts-single-working-process {
