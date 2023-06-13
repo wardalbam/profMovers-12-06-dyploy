@@ -9918,11 +9918,11 @@ Background Image
 }
 
 .bg_image--1 {
-  background-image: url(https://images.pexels.com/photos/7464676/pexels-photo-7464676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg);
 }
 
 .bg_image--2 {
-  background-image: url(../images/bg/bg-image-2.jpg);
+  /* background-image: url(/assets/images/man-box-logo.jpeg); */
 }
 
 .bg_image--3 {
@@ -15483,7 +15483,7 @@ nav ul li a {
 }
 
 .bg_image-wp-1 {
-  background-image: url(https://images.pexels.com/photos/6169177/pexels-photo-6169177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(/assets/images/bus-with-logo.jpeg);
 }
 
 .bg_image-wp-2 {
@@ -15511,6 +15511,7 @@ nav ul li a {
 .single-fun-facts {
   display: flex;
   align-items: center;
+  width: 250px;
 }
 .single-fun-facts .icon {
   width: 90px;
@@ -17031,19 +17032,17 @@ p {
 }
 
 .rts-single-working-process {
-  /* background-image: url(../images/working-process/01.png); */
   position: relative;
   background-repeat: no-repeat;
   background-size: contain;
-  /* height: 386px; */
   padding: 50px 40px;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #cccccc22;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border: 1px solid var(--color-primary);
+  background-color: #cccccc22 !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+  border: 1px solid var(--color-primary) !important;
 }
 @media only screen and (max-width: 1199px) {
   .rts-single-working-process {
