@@ -9915,6 +9915,7 @@ Background Image
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  /* background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important; */
 }
 
 .bg_image--1 {
@@ -15398,11 +15399,11 @@ nav ul li a {
 }
 
 .bg_image-wp-1 {
-  background-image: url(/assets/images/bus-with-logo.jpeg);
+  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg);
 }
 
 .bg_image-wp-2 {
-  background-image: url(https://images.pexels.com/photos/7464676/pexels-photo-7464676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image: url(/assets/images/bus-with-logo.jpeg);
 }
 
 .fun-facts-area-wrapper {
