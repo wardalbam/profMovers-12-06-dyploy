@@ -302,7 +302,7 @@
     <div class="row no-gutters">
       <div class="col-lg-6 col-md-6" id="content-container">
         <div class="form-wizard">
-          <form id="quote-form"    onsubmit="preFillForm(event)"  netlify>
+          <form id="quote-form"  onsubmit="preFillForm(event)"  netlify>
             <!-- <input type="hidden" name="_template" value="table"> -->
             <!-- <input type="hidden" name="_subject" value="Form Submission"> -->
             <!-- <input type="hidden" name="_autoresponse" value="Your message has been received."> -->
@@ -425,8 +425,8 @@
                     </div>
                     <br>
                   </fieldset>
-                  <fieldset style="margin: 5px;">
-                    <legend>Woning Type [huidige adre]</legend>
+                  <fieldset style="margin: 5px;" name="Woning Type [huidige adres]">
+                    <legend>Woning Type [huidige adres]</legend>
                     <div class="wizard-form-checkbox">
                       <input type="radio" id="eensgezinswoning-huidige-adres" name="woningtype-huidige-adres"
                         value="Eénsgezinswoning" required>
@@ -475,39 +475,39 @@
 
 
               <!-- new adres -->
-              <div class="new_adres adres_container" style="width: 100%; max-width: 1000px; margin: auto">
+              <div class="new_adres adres_container" style="width: 100%; max-width: 1000px; margin: auto"  name="[niuw adres]">
                 <div class="fields_container">
                   <fieldset>
                     <legend>NIEUWE ADRES</legend>
                     <div class="form-group">
                       <input type="text" class="form-control wizard-required" id="straatnaam-new" name="straatnaam-new"
                         required>
-                      <label for="straatnaam-new" class="wizard-form-text-label">Straatnaam*</label>
+                      <label for="straatnaam-new" class="wizard-form-text-label">Straatnaam</label>
                       <div class="wizard-form-error"></div>
                     </div>
                     <div class="one-line-fields">
                       <div class="form-group">
                         <input type="text" class="form-control wizard-required" id="huisnummer-new"
                           name="huisnummer-new" required>
-                        <label for="huisnummer-new" class="wizard-form-text-label">Huisnummer*</label>
+                        <label for="huisnummer-new" class="wizard-form-text-label">Huisnummer</label>
                         <div class="wizard-form-error"></div>
                       </div>
                       <div class="form-group">
                         <input type="text" class="form-control wizard-required" id="postcode-new" name="postcode-new"
                           required>
-                        <label for="postcode-new" class="wizard-form-text-label">Postcode*</label>
+                        <label for="postcode-new" class="wizard-form-text-label">Postcode</label>
                         <div class="wizard-form-error"></div>
                       </div>
                     </div>
                     <div class="form-group">
                       <input type="text" class="form-control wizard-required" id="woonplaats-new" name="woonplaats-new"
                         required>
-                      <label for="woonplaats-new" class="wizard-form-text-label">Woonplaats*</label>
+                      <label for="woonplaats-new" class="wizard-form-text-label">Woonplaats</label>
                       <div class="wizard-form-error"></div>
                     </div>
                   </fieldset>
 
-                  <fieldset style="margin: 5px;">
+                  <fieldset style="margin: 5px;" name="WoningType [niuw adres]">
                     <legend>Woning Type [niuwe adres]</legend>
                     <div class="wizard-form-checkbox">
                       <input type="radio" id="eensgezinswoning-new" name="woningtype-new" value="Eénsgezinswoning"
@@ -542,7 +542,7 @@
                     <div class="form-group">
                       <input type="number" class="form-control wizard-required" id="verdieping-new"
                         name="verdieping-new">
-                      <label for="verdieping-new" class="wizard-form-text-label">Verdieping*</label>
+                      <label for="verdieping-new" class="wizard-form-text-label">Etage</label>
                       <div class="wizard-form-error"></div>
                     </div>
                     <input type="checkbox" id="lift-new" name="lift-new">
