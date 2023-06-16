@@ -9967,11 +9967,12 @@ Background Image
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important;
+  background-image: url(/assets/images/bus-with-logo.jpeg) !important;
 }
 
 .bg_image--1 {
   background-image: url(/assets/images/service/shot-room-interior-with-package-boxes-standing-middle-sofa-covered-with-film.jpg) !important;
+
 }
 
 .bg_image--2 {
@@ -17010,6 +17011,10 @@ p {
   background-color: #cccccc22 ;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px ;
   border: 1px solid var(--color-primary) ;
+  padding: 10px !important;
+  padding-bottom: 25px !important;
+  height: 100% !important;
+  
 }
 @media only screen and (max-width: 1199px) {
   .rts-single-working-process {
@@ -17062,6 +17067,8 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-align: left;
+  margin: 5px;
 }
 .rts-single-working-process .content .step_number {
   position: absolute;
