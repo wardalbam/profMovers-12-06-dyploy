@@ -16345,6 +16345,7 @@ p {
   background: #F7F7F7;
   border-radius: 7px;
   padding: 30px;
+  height: 100% !important;
 }
 @media only screen and (max-width: 767px) {
   .short-service-style-one {

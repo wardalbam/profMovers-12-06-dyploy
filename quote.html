@@ -604,29 +604,38 @@
             </fieldset>
 
             <fieldset class="wizard-fieldset">
-              <div style="width: 100%; max-width: 500px; margin: auto">
-                <h5>Extra informatie</h5>
+              <!-- verhuisdatum input -->
 
+              <div style="width: 100%; max-width: 500px; margin: auto">
+                <h5>Verhuisdatum</h5>
+                <div class="form-group">
+                  <i> Vull de gewenste verhuisdatum in</i>
+                    <input type="date" class="form-control wizard-required" id="verhuisdatum" name="verhuisdatum"
+                      required>
+                    <label for="verhuisdatum" class="wizard-form-text-label"></label>
+                    <div class="wizard-form-error"></div>
+                  </div>
+                <br>
+                <h5>Gewenste Diensten</h5>
                 <div class="form-group">
                   <label for="services" class="wizard-form-text-label" id="wizard-form-text-label-1">Selecteer de
                     gewenste diensten:</label>
                   <div class="wizard-form-checkbox">
-                    <input type="checkbox" id="packing" name="services[]" value="packing">
+                    <input type="checkbox" id="packing" name="gewenste diensten" value="Inpakken">
                     <label for="packing">Inpakken</label>
                   </div>
                   <div class="wizard-form-checkbox">
-                    <input type="checkbox" id="loading" name="services[]" value="loading">
+                    <input type="checkbox" id="loading" name="gewenste diensten" value="Laden">
                     <label for="loading">Laden</label>
                   </div>
                   <div class="wizard-form-checkbox">
-                    <input type="checkbox" id="transport" name="services[]" value="transport">
+                    <input type="checkbox" id="transport" name="gewenste diensten" value="Vervoer">
                     <label for="transport">Vervoer</label>
                   </div>
                   <div class="wizard-form-checkbox">
-                    <input type="checkbox" id="unloading" name="services[]" value="unloading">
+                    <input type="checkbox" id="unloading" name="gewenste diensten" value="Lossen">
                     <label for="unloading">Lossen</label>
                   </div>
-                  
                 </div>
                 <div class="form-group">
                   <label for="extras" class="wizard-form-text-label">Extra wensen:</label>
@@ -651,6 +660,7 @@
 
 
 
+  
 
 
   <!-- pre loader start -->
