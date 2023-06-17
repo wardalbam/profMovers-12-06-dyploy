@@ -1026,12 +1026,62 @@ const items = {
 
     const itemsList_2 = document.getElementById("ItemsList");
     for (let i = 0; i < requestData.length; i++) {
-      itemsList_2.value += " " + requestData[i].quantity + " X " + requestData[i].itemName + " | ";
+      itemsList_2.value += " " + requestData[i].quantity + " x " + requestData[i].itemName + " \n ";
     }
-
     event.target.submit();
   }
-  // quote test
+  
+
+
+  // function preFillForm(event) {
+  //   event.preventDefault();
+
+
+  //   console.log(event.target.id);
+  //   event.preventDefault();
+  //   var requestData = selectedItems.map(function(item) {
+  //     return {
+  //       itemName: item.item.name,
+  //       quantity: item.quantity
+  //     };
+  //   });
+
+  //   const totalVolume = document.getElementById("totalVolume");
+  //   totalVolume.value = getTotalVolume();
+
+  //   const itemsList_2 = document.getElementById("ItemsList");
+  //   for (let i = 0; i < requestData.length; i++) {
+  //     itemsList_2.value += " " + requestData[i].quantity + " X " + requestData[i].itemName + " | ";
+  //   }
+  
+  //   // Create the table and populate data
+  //   var table = document.createElement('table');
+  //   var tbody = document.createElement('tbody');
+  //   var rows = document.querySelectorAll('.fields_container fieldset');
+    
+  //   for (var i = 0; i < rows.length; i++) {
+  //     var row = document.createElement('tr');
+  //     var cells = rows[i].querySelectorAll('.wizard-required');
+  
+  //     for (var j = 0; j < cells.length; j++) {
+  //       var cell = document.createElement('td');
+  //       cell.innerText = cells[j].value;
+  //       row.appendChild(cell);
+  //     }
+  
+  //     tbody.appendChild(row);
+  //   }
+  
+  //   table.appendChild(tbody);
+  
+  //   // Set the table HTML as the value of the tableData field
+  //   document.getElementById('tableData').value = table.outerHTML;
+  
+  //   // Submit the form
+  //   document.getElementById('quote-form').submit();
+  // }
+
+
   
   function getTotalVolume() {
     var totalVolume = 0;
