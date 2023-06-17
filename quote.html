@@ -26,15 +26,10 @@
   <!-- <script src="assets/js/item-selector.js"></script> -->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
+
   <script src="assets/js/main.js"></script>
   <script src="assets/js/quote_form_script.js"></script>
 
-
-
-
-  <!-- add send_email.php -->
-  
 
 
 
@@ -56,256 +51,16 @@
   </header>
   <!-- header style two End -->
 
-
-
-  <!-- <section class="wizard-section">
-    <div class="row no-gutters">
-        <div class="col-lg-6 col-md-6">
-            <div class="wizard-content-left d-flex justify-content-center align-items-center">
-                <h1>Create Your Bank Account</h1>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-            <div class="form-wizard">
-                <form action="" method="post" role="form">
-                    <div class="form-wizard-header">
-                        <p>Fill all form field to go next step</p>
-                        <ul class="list-unstyled form-wizard-steps clearfix">
-                            <li class="active"><span>t</span></li>
-                            <li><span>t</span></li>
-                            <li><span>s</span></li>
-                            <li><span>a</span></li>
-                        </ul>
-                    </div>
-                    <fieldset class="wizard-fieldset show">
-                        <h5>Personal Information</h5>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="fname">
-                            <label for="fname" class="wizard-form-text-label">First Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="lname">
-                            <label for="lname" class="wizard-form-text-label">Last Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            Gender
-                            <div class="wizard-form-radio">
-                                <input name="radio-name" id="radio1" type="radio">
-                                <label for="radio1">Male</label>
-                            </div>
-                            <div class="wizard-form-radio">
-                                <input name="radio-name" id="radio2" type="radio">
-                                <label for="radio2">Female</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="zcode">
-                            <label for="zcode" class="wizard-form-text-label">Zip Code*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group clearfix">
-                            <a href="javascript:;" class="form-wizard-next-btn float-right">Next</a>
-                        </div>
-                    </fieldset>	
-                    <fieldset class="wizard-fieldset">
-                        <h5>Account Information</h5>
-                        <div class="form-group">
-                            <input type="email" class="form-control wizard-required" id="email">
-                            <label for="email" class="wizard-form-text-label">Email*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="username">
-                            <label for="username" class="wizard-form-text-label">User Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control wizard-required" id="pwd">
-                            <label for="pwd" class="wizard-form-text-label">Password*</label>
-                            <div class="wizard-form-error"></div>
-                            <span class="wizard-password-eye"><i class="far fa-eye"></i></span>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control wizard-required" id="cpwd">
-                            <label for="cpwd" class="wizard-form-text-label">Confirm Password*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group clearfix">
-                            <a href="javascript:;" class="form-wizard-previous-btn float-left">Previous</a>
-                            <a href="javascript:;" class="form-wizard-next-btn float-right">Next</a>
-                        </div>
-                    </fieldset>	
-                    <fieldset class="wizard-fieldset">
-                        <h5>Bank Information</h5>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="bname">
-                            <label for="bname" class="wizard-form-text-label">Bank Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="brname">
-                            <label for="brname" class="wizard-form-text-label">Branch Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="acname">
-                            <label for="acname" class="wizard-form-text-label">Account Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="acon">
-                            <label for="acon" class="wizard-form-text-label">Account Number*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group clearfix">
-                            <a href="javascript:;" class="form-wizard-previous-btn float-left">Previous</a>
-                            <a href="javascript:;" class="form-wizard-next-btn float-right">Next</a>
-                        </div>
-                    </fieldset>	
-                    <fieldset class="wizard-fieldset">
-                        <h5>Payment Information</h5>
-                        <div class="form-group">
-                            Payment Type
-                            <div class="wizard-form-radio">
-                                <input name="radio-name" id="mastercard" type="radio">
-                                <label for="mastercard">Master Card</label>
-                            </div>
-                            <div class="wizard-form-radio">
-                                <input name="radio-name" id="visacard" type="radio">
-                                <label for="visacard">Visa Card</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control wizard-required" id="honame">
-                            <label for="honame" class="wizard-form-text-label">Holder Name*</label>
-                            <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control wizard-required" id="cardname">
-                                    <label for="cardname" class="wizard-form-text-label">Card Number*</label>
-                                    <div class="wizard-form-error"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control wizard-required" id="cvc">
-                                    <label for="cvc" class="wizard-form-text-label">CVC*</label>
-                                    <div class="wizard-form-error"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">Expiry Date</div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option value="">Date</option>
-                                        <option value="">1</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                        <option value="">4</option>
-                                        <option value="">5</option>
-                                        <option value="">6</option>
-                                        <option value="">7</option>
-                                        <option value="">8</option>
-                                        <option value="">9</option>
-                                        <option value="">10</option>
-                                        <option value="">11</option>
-                                        <option value="">12</option>
-                                        <option value="">13</option>
-                                        <option value="">14</option>
-                                        <option value="">15</option>
-                                        <option value="">16</option>
-                                        <option value="">17</option>
-                                        <option value="">18</option>
-                                        <option value="">19</option>
-                                        <option value="">20</option>
-                                        <option value="">21</option>
-                                        <option value="">22</option>
-                                        <option value="">23</option>
-                                        <option value="">24</option>
-                                        <option value="">25</option>
-                                        <option value="">26</option>
-                                        <option value="">27</option>
-                                        <option value="">28</option>
-                                        <option value="">29</option>
-                                        <option value="">30</option>
-                                        <option value="">31</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option value="">Month</option>
-                                        <option value="">jan</option>
-                                        <option value="">Feb</option>
-                                        <option value="">March</option>
-                                        <option value="">April</option>
-                                        <option value="">May</option>
-                                        <option value="">June</option>
-                                        <option value="">Jully</option>
-                                        <option value="">August</option>
-                                        <option value="">Sept</option>
-                                        <option value="">Oct</option>
-                                        <option value="">Nov</option>
-                                        <option value="">Dec</option>	
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option value="">Years</option>
-                                        <option value="">2019</option>
-                                        <option value="">2020</option>
-                                        <option value="">2021</option>
-                                        <option value="">2022</option>
-                                        <option value="">2023</option>
-                                        <option value="">2024</option>
-                                        <option value="">2025</option>
-                                        <option value="">2026</option>
-                                        <option value="">2027</option>
-                                        <option value="">2028</option>
-                                        <option value="">2029</option>
-                                        <option value="">2030</option>
-                                        <option value="">2031</option>
-                                        <option value="">2032</option>
-                                        <option value="">2033</option>
-                                        <option value="">2034</option>
-                                        <option value="">2035</option>
-                                        <option value="">2036</option>
-                                        <option value="">2037</option>
-                                        <option value="">2038</option>
-                                        <option value="">2039</option>
-                                        <option value="">2040</option>	
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group clearfix">
-                            <a href="javascript:;" class="form-wizard-previous-btn float-left">Previous</a>
-                            <a href="javascript:;" class="form-wizard-submit float-right">Submit</a>
-                        </div>
-                    </fieldset>	
-                </form>
-            </div>
-        </div>
-    </div>
-</section> -->
-
   <section class="wizard-section" style="margin-bottom: 100px;">
     <div class="row no-gutters">
       <div class="col-lg-6 col-md-6" id="content-container">
         <div class="form-wizard">
-          <form id="quote-form"  onsubmit="preFillForm(event)"  netlify>
+          <!-- onsubmit="preFillForm(event)"  -->
+          <form id="quote-form" onsubmit="preFillForm(event)" netlify >
+            <!-- <input type="hidden" id="tableData" name="tableData"> -->
             <!-- <input type="hidden" name="_template" value="table"> -->
             <!-- <input type="hidden" name="_subject" value="Form Submission"> -->
-            <!-- <input type="hidden" name="_autoresponse" value="Your message has been received."> -->
+
             <input type="hidden" id="totalVolume" name="totalVolume" value="">
             <input type="hidden" id="ItemsList" name="ItemsList" value="">
 
@@ -362,32 +117,6 @@
               </div>
 
             </fieldset>
-
-            <!-- <fieldsetxw class="wizard-fieldset">
-                <div style="width: 100%; max-width: 500px; margin: auto">
-                    <h5>Contactgegevens</h5>
-                    <div class="form-group">
-                      <input type="email" class="form-control wizard-required" id="email" name="email">
-                      <label for="email" class="wizard-form-text-label">E-mail*</label>
-                      <div class="wizard-form-error"></div>
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control wizard-required" id="phone" name="phone">
-                      <label for="phone" class="wizard-form-text-label">Telefoonnummer*</label>
-                      <div class="wizard-form-error"></div>
-                    </div>
-                    <div class="form-group">
-                      <textarea class="form-control" id="message" name="message"></textarea>
-                      <label for="message" class="wizard-form-text-label">Bericht</label>
-                    </div>
-                    <div class="form-group clearfix">
-                      <a href="javascript:;" class="form-wizard-previous-btn float-left">Vorige</a>
-                      <a href="javascript:;" class="form-wizard-next-btn float-right">Volgende</a>
-                    </div>
-                </div>
-              
-            </fieldset> -->
-
 
             <fieldset class="wizard-fieldset" name="Adres informatie">
               <!-- huidige adres -->
@@ -455,7 +184,6 @@
                         <input type="text" id="anders_text-huidige-adres" name="anders_text-huidige-adres">
                       </div>
                     </div>
-                   
                     <!-- verdieping: nummer invullen -->
                     <br>
                     <legend>Etage</legend>
@@ -559,7 +287,6 @@
               </div>
             </fieldset>
 
-
             <fieldset class="wizard-fieldset">
               <h2>MEUBELVOLUME BEREKENEN</h2>
               <div class="container">
@@ -603,18 +330,18 @@
 
             </fieldset>
 
-            <fieldset class="wizard-fieldset">
+            <fieldset class="wizard-fieldset ">
               <!-- verhuisdatum input -->
 
               <div style="width: 100%; max-width: 500px; margin: auto">
                 <h5>Verhuisdatum</h5>
                 <div class="form-group">
-                  <i> Vull de gewenste verhuisdatum in</i>
-                    <input type="date" class="form-control wizard-required" id="verhuisdatum" name="verhuisdatum"
-                      required>
-                    <label for="verhuisdatum" class="wizard-form-text-label"></label>
-                    <div class="wizard-form-error"></div>
-                  </div>
+                  <label for="verhuisdatum" class="wizard-form-text-label" style="display: none;">Gewenste
+                    Verhuisdatum</label>
+                  <input type="date" class="form-control wizard-required" id="verhuisdatum" name="verhuisdatum"
+                    required>
+                  <div class="wizard-form-error"></div>
+                </div>
                 <br>
                 <h5>Gewenste Diensten</h5>
                 <div class="form-group">
@@ -647,7 +374,6 @@
                 <button type="submit" value="Submit" class="form-wizard-submit float-right">Verstuur</button>
               </div>
             </fieldset>
-            
           </form>
         </div>
       </div>
@@ -660,7 +386,6 @@
 
 
 
-  
 
 
   <!-- pre loader start -->
@@ -731,7 +456,6 @@
   </script>
 
   <link rel="stylesheet" href="assets/css/quote_styling.css">
-  
 
 </body>
 
