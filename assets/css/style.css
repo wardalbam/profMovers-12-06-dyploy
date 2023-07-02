@@ -15778,19 +15778,13 @@ nav ul li a {
 .about-image-left::after {
   position: absolute;
   content: "";
-  background: var(--color-primary);
-  width: 12px;
-  height: 239px;
+  /* background: var(--color-primary); */
+  width: 0px !important;
+  height: 0px !important;
   top: 0;
   right: -35px;
-  position: absolute;
-  content: "";
-  background: var(--color-primary);
-  width: 10px;
-  height: 239px;
-  top: 0;
-  right: -20px;
 }
+
 .about-image-left .small-image {
   position: absolute;
   right: -30%;
